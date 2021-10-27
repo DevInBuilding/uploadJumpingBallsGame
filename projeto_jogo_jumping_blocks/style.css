@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 50px auto 50px auto;
+    background-color: rgb(211, 253, 253);
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 5px;
+}
+
+h3 {
+    font-size: 10pt;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 60px;
+    background-color: rgb(255, 255, 255);
+}
+label {
+    font-size: 10pt;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+#game {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#character {
+    width: 20px;
+    height: 50px;
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+}
+.animate {
+    animation: jump 500ms;
+}
+
+@keyframes jump {
+    0%{top: 100px;}
+    30%{top: 50px;}
+    70%{top: 50px;}
+    100%{top: 100px;}
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: brown;
+    position: relative;
+    top: 30px;
+    left: 240px;
+    animation: ball 1s infinite linear;
+}
+
+@keyframes ball {
+    0%{left: 240px;}
+    100%{left: -240px;}
+}
