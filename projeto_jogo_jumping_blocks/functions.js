@@ -22,6 +22,6 @@ var checkDead = setInterval(function(){
     if((ballLeft > 0 && ballLeft < 20) && (characterTop >= 80)){
         ball.style.animation = "none";
         ball.style.display = "none";
-        window.alert('Você perdeu!');
+        window.alert('You lose!');
     }
 }, 10);

@@ -60,7 +60,7 @@ label {
     position: relative;
     top: 30px;
     left: 240px;
-    animation: ball 1s infinite linear;
+    animation: ball 1200ms infinite linear;
 }
 
 @keyframes ball {
