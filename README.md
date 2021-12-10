@@ -14,6 +14,6 @@
   <img src="https://user-images.githubusercontent.com/72031181/145620632-ff35589d-c2ad-469a-ab35-507c681969c9.png" alt="begin of the game" width=600 height=350/>
 </p>
 
-<p align="justify">When I started developing this game, I had help from Shawn Beaton from the <a href="https://www.youtube.com/channel/UCwjglHy7pCPF4ES-S7FKxQg">KnifeCircus</a> Youtube channel. 
+<p align="justify">When I started developing this game, I had help from Shawn Beaton from the <a href="https://www.youtube.com/channel/UCwjglHy7pCPF4ES-S7FKxQg" target="_blank">KnifeCircus</a> Youtube channel. 
 His tutorial gave me a really nice introduction of how I could develop my own game. So I got insights he threw out in tutorial and then I started developing the project. 
 I appreciate his job and I'm so grateful to Shawn for helping me make it possible.</p>
